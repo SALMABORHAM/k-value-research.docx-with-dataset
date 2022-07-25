@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  4 20:17:25 2020
 
-@author: Salma ELSayed
+@author: salma elsayed
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -11,7 +11,7 @@ import pandas as pd
 
 headernames = ['sl_no',	'ssc_p'	,	'hsc_p'		,	'degree_p	'	,	'etest_p'		,'mba_p'	,	'salary','gender']
 
-dataset = pd.read_csv("C:/Users/Reem Elsamahy/Desktop/AAST Subjects/Professional Training/Dataset/Placement_Data_Full_Class.csv", names = headernames)
+dataset = pd.read_csv("C:/Users/salma elsayedy/Desktop/AAST Subjects/Professional Training/Dataset/Placement_Data_Full_Class.csv", names = headernames)
 dataset.head()
 
 X = dataset.iloc[:, 0:7].values
